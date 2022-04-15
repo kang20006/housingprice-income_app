@@ -1,4 +1,6 @@
 #install.packages("shiny","leaflet")
+my_packages = c("leaflet", "shiny", "shinyWidgets","plotly","DT","dplyr","shinythemes","naniar","imputeTS","rgdal","randomcoloR","ggplot2") 
+install.packages(my_packages)
 library(leaflet)
 library(shiny)
 library(shinyWidgets)
